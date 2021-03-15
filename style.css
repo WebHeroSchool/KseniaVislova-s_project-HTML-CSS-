@@ -1,6 +1,6 @@
-* {
+/** {
   border: 1px dashed red;
-}
+}*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -18,7 +18,32 @@ body {
 }
 
 .logo {
+  position: relative;
   padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.logo__circle_color_dark-blue {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #0056ec;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  transform: translateY(-50%);
+  background-color: #c8dbfb;
+  opacity: 0.7;
 }
 
 .menu {
