@@ -98,24 +98,31 @@ body {
 
 .main {
   padding-top: 106px;
-  height: 657px;
+  padding-bottom: 285px;
   padding-right: 66%;
-  background: no-repeat 99.5% 27.2% url('bg-main.svg');
+  background: no-repeat 99.5% 20% url('bg-main.svg');
 }
 
 .main__title {
-  margin: 0 0 39px 0;
+  margin: 0 0 37px 0;
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
   background: #ecf3ff;
+  background: linear-gradient(
+    to top,
+    transparent 8%,
+    #ecf3ff 8%,
+    #ecf3ff 85%,
+    transparent 85%
+  );
 }
 
 .main__subtitle {
   margin: 0 0 58px 0;
   padding-left: 1px;
-  width: 80%;
+  width: 85%;
   font: 22px/25px roboto-regular, arial, helvetica, sans-serif;
 }
 
@@ -132,4 +139,17 @@ body {
 
 .main__button:hover {
   opacity: 0.5;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+}
+
+.switch__item {
+  margin-right: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #c8dbfb;
+  border-radius: 50%;
 }
