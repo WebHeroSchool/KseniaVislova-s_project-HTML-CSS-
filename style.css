@@ -111,14 +111,37 @@ body {
 }
 
 .main__title-text_highlight {
-  background: #ecf3ff;
-  background: linear-gradient(
-    to top,
-    transparent 8%,
-    #ecf3ff 8%,
-    #ecf3ff 85%,
-    transparent 85%
-  );
+  animation: hidhtlight__moves infinite 2s linear;
+}
+
+@keyframes hidhtlight__moves {
+  from {
+    background: linear-gradient(
+      to top,
+      transparent 8%,
+      #ecf3ff 8%,
+      #ecf3ff 85%,
+      transparent 85%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      to top,
+      transparent 3%,
+      #ecf3ff 3%,
+      #ecf3ff 95%,
+      transparent 95%
+    );
+  }
+  to {
+    background: linear-gradient(
+      to top,
+      transparent 8%,
+      #ecf3ff 8%,
+      #ecf3ff 85%,
+      transparent 85%
+    );
+  }
 }
 
 .main__subtitle {
