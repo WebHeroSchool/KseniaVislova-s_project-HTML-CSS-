@@ -394,16 +394,21 @@ body {
   }
 
   .menu {
-    margin-top: -28px;
-    margin-left: 25px;
+    margin-top: -23px;
+    margin-left: 26px;
   }
 
   .menu__item {
     margin-top: 25px;
   }
 
+  .menu__item:nth-child(3),
+  .menu__item:nth-child(4) {
+    margin-right: 30px;
+  }
+
   .menu__item:last-child {
-    margin-right: 29px;
+    margin-right: 32px;
   }
 
   .menu__item_active::after {
