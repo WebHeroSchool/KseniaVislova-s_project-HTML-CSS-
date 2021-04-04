@@ -119,23 +119,11 @@ body {
   }
 
   50% {
-    background: linear-gradient(
-      to top,
-      transparent 3%,
-      #ecf3ff 3%,
-      #ecf3ff 95%,
-      transparent 95%
-    );
+    background: linear-gradient(to top, transparent 3%, #ecf3ff 3%, #ecf3ff 95%, transparent 95%);
   }
 
   to {
-    background: linear-gradient(
-      to top,
-      transparent 8%,
-      #ecf3ff 8%,
-      #ecf3ff 85%,
-      transparent 85%
-    );
+    background: linear-gradient(to top, transparent 8%, #ecf3ff 8%, #ecf3ff 85%, transparent 85%);
   }
 }
 
