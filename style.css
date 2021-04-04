@@ -115,13 +115,7 @@ body {
 
 @keyframes hidhtlight__moves {
   from {
-    background: linear-gradient(
-      to top,
-      transparent 8%,
-      #ecf3ff 8%,
-      #ecf3ff 85%,
-      transparent 85%
-    );
+    background: linear-gradient(to top, transparent 8%, #ecf3ff 8%, #ecf3ff 85%, transparent 85%);
   }
 
   50% {
