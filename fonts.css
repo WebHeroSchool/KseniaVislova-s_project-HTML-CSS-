@@ -30,14 +30,21 @@
 
 @font-face {
   font-family: 'roboto-bold';
-  src: url('fonts/roboto-bold-webfont.woff') format('woff');
+  src: url('fonts/Roboto-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'roboto-medium';
-  src: url('fonts/roboto-medium-webfont.woff') format('woff');
+  src: url('fonts/Roboto-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
